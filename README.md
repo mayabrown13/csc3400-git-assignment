@@ -1,4 +1,5 @@
-# Project Title : My Software Engineering Project - Calculator
+# My Software Engineering Project 
+### Creating a Calculator Function
 
 Name: Maya Brown
 
