@@ -51,6 +51,7 @@ def calculator():
         x = get_number("Enter the first number: ")
         y = get_number("Enter the second number: ")
 
+
         if choice == '1':
             print(add(x, y))
 
