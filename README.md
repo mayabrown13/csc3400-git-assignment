@@ -5,6 +5,9 @@ Name: Maya Brown
 
 Student ID: 1279343
 
+## Project Status
+Version: v1.0.0
+All planned features completed and merged into main.
 
 
 
