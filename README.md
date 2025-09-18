@@ -1,4 +1,4 @@
-# My Software Engineering Project
+# Project Title : My Software Engineering Project
 
 Name: Maya Brown
 
