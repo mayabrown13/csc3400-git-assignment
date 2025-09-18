@@ -11,7 +11,7 @@ def multiply(x, y):
 
 def divide(x, y):
     if y == 0:
-        return "Cannot divide by 0."
+        return "ERROR: Cannot divide by 0."
     return x / y
 
 def power(x, y):
