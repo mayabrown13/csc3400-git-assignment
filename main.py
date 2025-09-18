@@ -8,7 +8,6 @@ def get_number(prompt):
         except ValueError:
             print("Error: Please enter a valid number.")
 
-
 def add(x, y):
     return x + y
 
@@ -20,7 +19,7 @@ def multiply(x, y):
 
 def divide(x, y):
     if y == 0:
-        return "ERROR: Cannot divide by 0."
+        return "Cannot divide by 0."
     return x / y
 
 def power(x, y):
@@ -28,9 +27,9 @@ def power(x, y):
 
 def square_root(x):
     if x < 0:
-        return "ERROR: Cannot take the square root of a negative number."
+        return "Cannot take the square root of a negative number."
+    
     return math.sqrt(x)
-
 
 def calculator():
     print("Calculator")
@@ -48,9 +47,9 @@ def calculator():
         x = get_number("Enter the number: ")
         print(square_root(x))
 
-    elif choice in ['1', '2', '3', '4', '5']:
-        x = get_number("Enter your first number: ")
-        y = get_number("Enter your second number: ")
+    elif choice in ['1', '2', '3', '4', '5']:    
+        x = get_number("Enter the first number: ")
+        y = get_number("Enter the second number: ")
 
         if choice == '1':
             print(add(x, y))
@@ -71,4 +70,5 @@ def calculator():
         print("Invalid choice. Please pick 1-6.")
 
 
-calculator()
+if __name__ == "__main__":
+    calculator()
