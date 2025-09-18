@@ -19,7 +19,7 @@ def power(x, y):
 
 def square_root(x):
     if x < 0:
-        return "Cannot take the square root of a negative number."
+        return "ERROR: Cannot take the square root of a negative number."
     return math.sqrt(x)
 
 
